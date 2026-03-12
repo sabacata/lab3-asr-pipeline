@@ -1,0 +1,4 @@
+data/raw/
+data/manifests/
+outputs/
+*.wav
