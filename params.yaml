@@ -1,0 +1,31 @@
+languages:
+  - en
+  - fr
+
+snr_levels:
+  - 0
+  - 5
+  - 10
+  - 15
+  - 20
+  - 25
+  - 30
+  - 35
+  - 40
+  - 45
+
+data:
+  en:
+    dataset: "librispeech_asr"
+    config: "clean"
+    split: "test"
+    num_samples: 20
+  fr:
+    dataset: "facebook/voxpopuli"
+    config: "fr"
+    split: "test"
+    num_samples: 20
+
+model:
+  name: "facebook/wav2vec2-lv-60-espeak-cv-ft"
+  sampling_rate: 16000

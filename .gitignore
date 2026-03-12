@@ -1,4 +1,6 @@
 data/raw/
-data/manifests/
-outputs/
 *.wav
+*.zip
+lab3_output/
+__pycache__/
+.ipynb_checkpoints/
